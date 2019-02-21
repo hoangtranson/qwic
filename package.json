@@ -26,5 +26,8 @@
   "devDependencies": {
     "ava": "^1.2.1",
     "nyc": "^13.3.0"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
   }
 }
