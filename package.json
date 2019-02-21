@@ -1,0 +1,29 @@
+{
+  "name": "qwic",
+  "version": "1.0.0",
+  "description": "This test must be done in Node.js. We will run a series of automatic tests to validate the logic but feel free to add your own\r unit tests. For any doubts please send me an e-mail at hmartins@qwic.nl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "npx git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangtranson/qwic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoangtranson/qwic/issues"
+  },
+  "homepage": "https://github.com/hoangtranson/qwic#readme",
+  "devDependencies": {
+    "ava": "^1.2.1",
+    "nyc": "^13.3.0"
+  }
+}
