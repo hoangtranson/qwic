@@ -4,8 +4,9 @@
   "description": "This test must be done in Node.js. We will run a series of automatic tests to validate the logic but feel free to add your own\r unit tests. For any doubts please send me an e-mail at hmartins@qwic.nl",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "npx git-cz"
+    "commit": "npx git-cz",
+    "test": "ava ./tests/**/*",
+    "test:coverage": "nyc --reporter=html ava ./tests/**/*"
   },
   "config": {
     "commitizen": {
